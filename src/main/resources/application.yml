@@ -1,0 +1,30 @@
+server:
+  port: 8765
+      
+spring:
+  application:
+    name: OneToMany-Relationship
+  datasource:      
+    url: jdbc:mysql://localhost:3306/onetomany
+    username: root
+    password: Tiger2143@+%
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create  
+    open-in-view: false
+    
+logging:
+  level:
+    com: 
+      developer: TRACE
+    
+   
+        
+
+      
+        
+        
+        
+   
+      
